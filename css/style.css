@@ -1,0 +1,347 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    outline: 0%;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0%;
+    padding: 0%;
+    outline: 0%;
+}
+/* header part css start */
+.header{
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+   
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    color: #fff;
+    padding: 10px;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: #fff;
+}
+.header h3{
+color: red;
+padding-bottom: 10px;
+text-align: center;
+}
+.header .spans{
+display: block;
+width: 50px;
+height: 2px;
+background: red;
+text-align: center;
+margin: auto;
+}
+.header h1{
+text-align: center;
+font-size: 70px;
+font-weight: 700;
+color: #0dcaf0;
+}
+.header .btn_learn{
+    text-align: center;
+      
+}
+.btn_learn a{
+    background: blue;
+    
+}
+.height{
+    min-height: 90vh;
+    align-items: center;
+}
+/* header part css end */
+
+/* quote part css start */
+.quote{
+    background-color: #F5F5F5;
+    text-align: center;
+    padding: 50px 0px;
+
+}
+
+/* quote part css end */
+
+/* event part css start */
+.event{
+    text-align: center;
+}
+.event h4{
+    padding-top: 10px;
+}
+.event p{
+    font-size: 12px;
+}
+/* event part css end */
+
+/* explore part css start */
+.explore{
+    margin-top: 10px;
+    background-image: url(../images/explore1.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+    
+}
+.explore .explore_height{
+   min-height: 90vh; 
+   align-items: center;
+}
+.explore .spans{
+display: block;
+width: 70px;
+height: 2px;
+background: red;
+text-align: center;
+margin: 10px 0px;
+
+}
+/* explore part css end */
+
+/* tour part css end */
+.tour{
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+/* tour part css end */
+
+/* footer part html start */
+.footer{
+    text-align: center;
+    background: black;
+    color: #fff;
+
+}
+.footer { 
+    padding-top: 10px;
+
+}
+/* footer part html end */
+
+
+/* about page css start */
+.about_header{
+    background: url(../images/about_banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.height1{
+    min-height: 90vh;
+    align-items: center;
+    text-align: center;
+}
+/* mission part css start */
+.mission{
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+.mission h2{
+
+}
+.mission .spans{
+display: block;
+width: 70px;
+height: 2px;
+background: red;
+text-align: center;
+margin: 10px 0px;   
+}
+.mission p{
+    font-size: 13px;
+}
+
+
+/* mission part css end */
+/* about page css end */
+
+/* experience part css start */
+.experience .spans{
+display: block;
+width: 50px;
+height: 2px;
+background: red;
+text-align: center;
+margin: 10px 0px;  
+
+}
+.experience h2{
+
+}
+.experience p{
+  font-size: 13px;
+}
+.experience .spans1{
+display: block;
+width: 50px;
+height: 2px;
+background: red;
+text-align: center;
+margin: 10px 0px; 
+
+}
+.experience ul li span i{
+    color: red;
+}
+.experience ul li{
+    font-size: 14px;
+}
+
+.experience{
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+/* experience part css end */
+
+/* service part css start */
+.service_header{
+    background-image: url(../images/service_banner.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.adventure{
+margin-top: 20px;
+text-align: center;
+margin-bottom: 20px;
+}
+.adventure .spans{
+  display: block;
+   width: 90px;
+   height: 2.5px;
+   background-color: red;
+   margin: auto;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+.adventure p{
+    font-size: 14px;
+}
+.services{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.services p{
+    font-size: 14px;
+}
+.services h6{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.get ul li i{
+    color: red;
+    font-size: 13px;
+    
+}
+.get ul li{
+    list-style: none;
+    font-size: 13px;
+}
+.get p{
+    font-size: 13px;
+}
+.get{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #F5F5F5;
+}
+.get .spans{
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: red;
+
+}
+
+/* service part css end */
+
+/* project part css start */
+.project_header{
+    background-image: url(../images/project_banner1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.sports{
+    padding-bottom: 70px;
+    padding-top: 40px;
+}
+.camping{
+    padding-bottom: 70px;
+    padding-top: 40px;
+
+}
+/* project part css end */
+
+/* about part css start */
+.about{
+   
+}
+.about p span i{
+   
+color: red;
+
+
+}
+.about p{
+   
+
+}
+.about{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+/* about part css end */
+
+/* contact page css start */
+.contact_header{
+    background-image: url(../images/contact_banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.talk{
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+.talk .fonts{
+    font-size: 30px;
+  
+}
+.talk .fonts a i{
+   color: red;
+}
+.talk .fonts a i:hover{
+    color: green;
+}
+.talk h2{
+    padding-bottom: 30px;
+}
+.talk button{
+    width: 130px;
+    height: 35px;
+    border-radius: 20%;
+    background-color: #DA1C4B;
+    color: #fff;
+   text-align: center;
+}
+/* contact page css end */
